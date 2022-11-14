@@ -30,7 +30,7 @@ const Navbar = () => {
                 <Link href='/'>
                 <h1 style={{color: `${textColor}`}} className='font-bold text-4xl'><span className={'text-rub-purple'}>Rub</span><span className='font-thin'>Bank</span></h1>
                 </Link>
-                <ul style={{color: `${textColor}`}}  className='hidden sm:flex '>
+                <ul style={{color: `${textColor}`}}  className='hidden sm:flex font-semibold'>
                     <li className='p-4 text-lg text-rub-purple hover:underline'>
                         <Link href='/'>O RubBank</Link>
                     </li>
@@ -44,7 +44,7 @@ const Navbar = () => {
 
                 {/* Mobile Button */}
                 <div onClick={handleNav} className='block sm:hidden z-10'>
-                    {nav ? <AiOutlineClose size={20}  style={{color: `${textColor}`}}  /> : <AiOutlineMenu size={20}  style={{color: `${textColor}`}} />}
+                    {nav ? <AiOutlineClose size={20}  style={{color: `#260e69`}}  /> : <AiOutlineMenu size={20}  style={{color: `#9340ff`}} />}
                 </div>
                 {/* Mobile Menu */}
                 <div className={
