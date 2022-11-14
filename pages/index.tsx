@@ -13,6 +13,8 @@ import FifthPage from '../components/FifthPage'
 import SixthPage from '../components/SixthPage'
 import SeventhPage from '../components/SeventhPage'
 import EightPage from '../components/EightPage'
+import NinthPage from '../components/NinthPage'
+import Contato from '../components/Contato'
 
 export default function Home() {
   return (
@@ -33,8 +35,10 @@ export default function Home() {
       <SixthPage />
       <SeventhPage />
       <EightPage />
-      <Slider slides={SliderData} />
-      <Instagram />
+      <NinthPage />
+      <Contato />
+      {/* <Slider slides={SliderData} />
+      <Instagram /> */}
     </div>
   )
 }
