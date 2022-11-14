@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React, {useState, useEffect} from "react";
 import  {AiOutlineMenu, AiOutlineClose} from "react-icons/ai";
+import Logo2 from "../public/images/logo2.svg";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -28,7 +29,8 @@ const Navbar = () => {
         <div className='fixed left-0 top-0 w-full z-10 ease-in duration-300 bg-rub-darker-blue'>
             <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white'>
                 <Link href='/'>
-                <h1 style={{color: `${textColor}`}} className='font-bold text-4xl'><span className={'text-rub-purple'}>Rub</span><span className='font-thin'>Bank</span></h1>
+                {/* <h1 style={{color: `${textColor}`}} className='font-bold text-4xl'><span className={'text-rub-purple'}>Rub</span><span className='font-thin'>Bank</span></h1> */}
+                <Logo2 />
                 </Link>
                 <ul style={{color: `${textColor}`}}  className='hidden sm:flex font-semibold'>
                     <li className='p-4 text-lg text-rub-purple hover:underline'>

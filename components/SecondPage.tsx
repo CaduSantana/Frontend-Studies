@@ -1,4 +1,5 @@
 import React from "react";
+import Controle from '../public/images/controle.svg'
 
 const SecondPage = () => {
     return (
@@ -7,7 +8,9 @@ const SecondPage = () => {
                 <h1 className='text-[6vh] text-rub-purple'>Controle seu dinheiro </h1>
                 <p className='text-[20px]'>Use o RubBank para analisar suas transações nativamente.</p>
             </div>
-            <img src='http://placekitten.com/515/515' height={'80vh'} alt='kitten' />
+            {/* <img src='http://placekitten.com/515/515' height={'80vh'} alt='kitten' /> */}
+            <Controle className='max-w-[390px]' />
+
         </div>
     )
 }

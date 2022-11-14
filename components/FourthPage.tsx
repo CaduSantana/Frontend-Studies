@@ -1,4 +1,5 @@
 import React from "react";
+import Negocio from '../public/images/negocio.svg'
 
 const FourthPage = () => {
     return (
@@ -8,7 +9,8 @@ const FourthPage = () => {
                 <p className='text-[20px]'>RubBank introduz a criação simples e direta de contas para qualquer usuário, com CNPJ ou não. <br />
                 Você pode organizar tais contas como quiser.</p>
             </div>
-            <img src='http://placekitten.com/460/460' alt='kitten' />
+            {/* <img src='http://placekitten.com/460/460' alt='kitten' /> */}
+            <Negocio className='w-[210px] md:w-[460px]'/>
 
         </div>
     )

@@ -1,4 +1,5 @@
 import React from "react";
+import Maps from '../public/images/maps.svg'
 
 const Contato = () => {
     return (
@@ -15,9 +16,10 @@ const Contato = () => {
                     <li>
                         contato@rubbank.com
                     </li>
-                </ul>
+                </ul><br /><br />
+                <button className='px-8 py-2 rounded-full bg-gradient-to-r from-rub-purple to-rub-dark-blue text-xl sm:text-center w-[240px] h-[70px] font-semibold text-[18px]'>Adquira já</button>
             </div>
-            <img src='http://placekitten.com/460/460' alt='kitten' />
+            <Maps className='hidden md:block'/>
 
         </div>
         
