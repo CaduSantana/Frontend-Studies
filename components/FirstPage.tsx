@@ -1,17 +1,31 @@
 import React from "react";
-import Homem from '../public/images/homem.svg'
+import Homem from "../public/images/homem.svg";
+import Image from "next/image";
 
 const FirstPage = () => {
-    return (
-        <div className='flex flex-col justify-center items-center text-white px-25vh py-32 relative'>
-            <h1 className='text-[4vh] mx-auto max-w-[80vw] align-center'>
-                <span className='text-rub-purple'>RubBank</span> é uma ideia para mudar a maneira de pensar um banco
-            </h1>
-            <Homem className='max-w-[60vw] absolute right-60 -z-10'/>
+  return (
+    <div className="flex flex-col justify-center items-center text-white px-25vh py-32 relative w-full h-screen">
+      <div className="mx-auto px-4 md:px-10">
+        <h1 className="text-4xl md:text-6xl text-left md:text-center align-center">
+          <span className="text-rub-purple">RubBank</span> é uma ideia para
+          mudar a maneira de pensar um banco
+        </h1>
 
-            <p className='mx-auto max-w-[80vw] py-4 text-[18px]'>Nossa aplicação foi construída visando aproximar você de seu dinheiro e de seus negócios. Com profunda experiência e conhecimento, nossa equipe garante que este é o único app que você precisa.</p>
-        </div>
-    )
-}
+        <p className=" py-4 text-xl text-left md:text-center">
+          Nossa aplicação foi construída visando aproximar você de seu dinheiro
+          e de seus negócios. Com profunda experiência e conhecimento, nossa
+          equipe garante que este é o único app que você precisa.
+        </p>
+      </div>
+      <Image
+        src="/images/homem.svg"
+        alt="Homem"
+        width={500}
+        height={500}
+        className="absolute opacity-70 right-0 -z-10 w-[500px] h-[500px]"
+      />
+    </div>
+  );
+};
 
 export default FirstPage;
