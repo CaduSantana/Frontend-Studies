@@ -37,13 +37,13 @@ const Navbar = () => {
           className="hidden sm:flex font-semibold"
         >
           <li className="p-4 text-2xl text-rub-purple hover:underline">
-            <Link href="/">O RubBank</Link>
+            <Link href="#FirstPage">O RubBank</Link>
           </li>
           <li className="p-4 text-2xl text-rub-purple hover:underline">
-            <Link href="/">Para você</Link>
+            <Link href="#FifthPage">Para você</Link>
           </li>
           <li className="p-4 text-2xl text-rub-purple hover:underline">
-            <Link href="/">Contato</Link>
+            <Link href="#Contato">Contato</Link>
           </li>
         </ul>
 
@@ -69,19 +69,19 @@ const Navbar = () => {
               className="p-4 text-4xl hover:text-gray-500"
             >
               {/* <Link href='/#RubBank'>O RubBank</Link> */}
-              <Link href="/">O RubBank</Link>
+              <Link href="#FirstPage">O RubBank</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
-              <Link href="/">Para você</Link>
+              <Link href="#FifthPage">Para você</Link>
             </li>
             <li
               onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
-              <Link href="/">Contato</Link>
+              <Link href="#Contato">Contato</Link>
             </li>
           </ul>
         </div>

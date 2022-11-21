@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const FirstPage = () => {
   return (
-    <div className="flex flex-col justify-center items-center text-white px-25vh py-32 relative w-full h-screen">
+    <div id='FirstPage' className="flex flex-col justify-center items-center text-white px-25vh py-32 relative w-full h-screen">
       <div className="mx-auto px-4 md:px-10">
         <h1 className="text-4xl md:text-6xl text-left md:text-center align-center">
           <span className="text-rub-purple">RubBank</span> é uma ideia para

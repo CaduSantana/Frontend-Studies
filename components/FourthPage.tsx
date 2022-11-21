@@ -20,11 +20,11 @@ const FourthPage = () => {
       </div>
       {/* <img src='http://placekitten.com/460/460' alt='kitten' /> */}
       <Image
-        src="/images/negocio.svg"
+        src="/images/negocio_brilho.svg"
         alt="Negocio"
-        width={515}
-        height={515}
-        className=" right-0 w-[205px] h-[205px] md:w-[515px] md:h-[515px]"
+        width={650}
+        height={650}
+        className=" right-0 w-[225px] h-[225px] md:w-[650px] md:h-[650px]"
       />
     </div>
   );

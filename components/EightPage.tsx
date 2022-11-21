@@ -2,30 +2,23 @@ import React from "react";
 
 const EightPage = () => {
   return (
-    <div className="flex flex-col md:flex-row mx-auto justify-between items-center w-full h-screen text-white">
-      <div className="oval h-5/6 w-full mx-auto my-1 bg-rub-purple flex flex-col items-center justify-center relative space-y-3">
-        <h1 className="font-bold text-6xl my-6 top-0 absolute">Problemas</h1>
-        <p className="content-center text-2xl">
-          Ter que sair de casa
-          <br />
-          Ter que falar com gerente para resolver problemas
-          <br />
-          Ter mais de uma conta
-          <br />
-          Poder visualizar transações
-          <br />
-          Cadastros complicados
-          <br />
-          Baixo desempenho de app de banco
-          <br />
-          Sentir-se inseguro
-          <br />
-          Ter que aprender a usar o app no PC e celular
-        </p>
+    <div className="flex flex-col relative md:flex-row mx-auto justify-center items-center w-full h-screen text-white">
+      <div className="oval md:h-5/6 w-full mx-auto my-1 bg-rub-purple flex flex-col items-center md:w-[40%] justify-center relative space-y-3">
+        <h1 className="font-bold text-3xl md:text-6xl md:my-6 top-0">Problemas</h1>
+        <ol type="1" className="md:text-2xl md:space-y-3">
+          <li className="content-center">Ter que sair de casa</li>
+          <li>Ter que falar com gerente para resolver problemas</li>
+          <li>Ter mais de uma conta</li>
+          <li>Poder visualizar transações</li>
+          <li>Cadastros complicados</li>
+          <li>Baixo desempenho de app de banco</li>
+          <li>Sentir-se inseguro</li>
+          <li>Ter que aprender a usar o app no PC e celular</li>
+        </ol>
       </div>
-      <div className="oval h-5/6 w-full mx-auto  bg-rub-dark-purple flex flex-col items-center justify-center relative">
-        <h1 className="font-bold top-0 absolute text-6xl my-6">Soluções</h1>
-        <ol type="1" className="text-2xl space-y-3">
+      <div className="oval md:h-5/6 w-full mx-auto my-1 bg-rub-dark-purple flex flex-col md:w-[40%] items-center justify-center relative space-y-3">
+        <h1 className="font-bold text-3xl md:text-6xl md:my-6 top-0">Soluções</h1>
+        <ol type="1" className="md:text-2xl md:space-y-3">
           <li className="content-center">Banco 100% digital!</li>
           <li className="content-center">Sem filas ou gerentes</li>
           <li className="content-center">

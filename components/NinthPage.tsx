@@ -9,10 +9,10 @@ const NinthPage = () => {
   return (
     <div className="flex flex-col-reverse md:flex-row justify-center items-center text-white h-screen w-full mx-auto bg-rub-purple ">
       <div className="flex flex-col justify-center items-center mx-auto">
-        <h1 className="text-5xl font-semibold text-rub-dark-purple mb-3">
+        <h1 className="md:text-5xl text-3xl font-semibold text-rub-dark-purple mb-3">
           Junte-se a nós!
         </h1>
-        <p className="text-3xl">
+        <p className="md:text-3xl text-2xl mx-3">
           Baixe o aplicativo clicando nos botões abaixo:
         </p>
         <br />

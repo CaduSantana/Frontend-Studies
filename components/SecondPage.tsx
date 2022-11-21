@@ -10,7 +10,7 @@ const SecondPage = () => {
           Controle seu
           <br /> dinheiro{" "}
         </h1>
-        <p className="text-[20px] mx-10 md:mx-0 text-left mt-10">
+        <p className="text-xl md:text-3xl mx-10 md:mx-0 text-left mt-10">
           Use o RubBank para analisar suas transações
           <br /> nativamente.
         </p>
